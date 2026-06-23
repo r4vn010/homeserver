@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+
+echo "Setting up HomeMedia..."
+cd HomeMedia && sudo ./setup.sh
+cd ..
+
+echo "Setting up Dashboard..."
+cd Dashboard && sudo ./setup.sh
+cd ..
+
+echo "All done!"

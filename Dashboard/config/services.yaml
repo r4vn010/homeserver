@@ -1,0 +1,39 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- HomeMedia:
+    - Jellyfin:
+        href: http://andry.tail9a73fe.ts.net:8096/
+        description: Media Server
+        icon: jellyfin
+    - qBittorrent:
+        href: http://andry.tail9a73fe.ts.net:8080/
+        description: Torrent-client
+        icon: qbittorrent
+    - Prowlarr:
+        href: http://andry.tail9a73fe.ts.net:9696/
+        description: Manager for Radarr&Sonarr
+        icon: prowlarr
+    - Radarr:
+        href: http://andry.tail9a73fe.ts.net:7878/
+        description: Movies download
+        icon: radarr
+    - Sonarr:
+        href: http://andry.tail9a73fe.ts.net:8989/
+        description: Series download
+        icon: sonarr
+#    - Flaresolver:
+#        href: http://andry.tail9a73fe.ts.net:8191/
+#        description: Cloudflare solver
+#        icon: flaresolver
+
+#- My Second Group:
+#    - My Second Service:
+#        href: http://localhost/
+#        description: Homepage is the best
+#
+#- My Third Group:
+#    - My Third Service:
+#        href: http://localhost/
+#        description: Homepage is 😎
