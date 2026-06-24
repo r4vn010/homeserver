@@ -1,6 +1,6 @@
 # Homelab 
 Personal self-hosted home server setup with automated media management and secure remote access.
-## Stack - что за сервисы и для чего
+## Stack
 ### HomeMedia
 - **Jellyfin** - Media server for movies, series etc.
 - **qBittorrent** - Torrent client with web UI
@@ -10,6 +10,8 @@ Personal self-hosted home server setup with automated media management and secur
 - **FlareSolverr** - Cloudflare bypass for indexers
 ### Dashboard
 - **Homepage** - Dashboard for all services
+### Monitoring
+- **Uptime Kuma** - Service uptime monitoring
 ## Requirements
 - Ubuntu 24.04+
 - Docker + Docker Compose
@@ -33,6 +35,7 @@ sudo ./setup.sh
 | Radarr       | 7878 |
 | Sonarr       | 8989 |
 | FlareSolverr | 8191 |
+| Uptime Kuma  | 3001 |
 | Homepage     | 3000 |
 ## Notes
 - After setup, configure Prowlarr indexers and connect to Radarr/Sonarr manually via web UI
