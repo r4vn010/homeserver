@@ -12,6 +12,7 @@ Personal self-hosted home server setup with automated media management and secur
 - **Homepage** - Dashboard for all services
 ### Monitoring
 - **Uptime Kuma** - Service uptime monitoring
+- **WatchTower** - Checking for container updates
 ## Requirements
 - Ubuntu 24.04+
 - Docker + Docker Compose
@@ -42,6 +43,7 @@ sudo ./setup.sh
 - qBittorrent default credentials are in `docker logs qbittorrent`
 - Media files stored in `~/Jellyfin/`, downloads in `~/Downloads/`
 - FlareSolverr must be added as proxy in Prowlarr Settings → Indexer Proxies
+- Watchtower can send Telegram notifications when new container images are available
 
 ---
 Author: r4vn010

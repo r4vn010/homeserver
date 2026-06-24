@@ -23,3 +23,17 @@ services:
         max-size: "10m"
         max-file: "3"
     restart: unless-stopped
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - TZ=Europe/Kiev
+      - WATCHTOWER_CLEANUP=true
+      - WATCHTOWER_MONITOR_ONLY=true
+      - WATCHTOWER_SCHEDULE=0 0 4 * * *
+      - WATCHTOWER_NOTIFICATION_URL=${WATCHTOWER_TELEGRAM_URL}
+#      - WATCHTOWER_NO_STARTUP_MESSAGE=true
+      - DOCKER_API_VERSION=1.40
+    restart: unless-stopped
