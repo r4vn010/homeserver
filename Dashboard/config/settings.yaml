@@ -16,6 +16,14 @@ layout:
 #   tab: First
     style: row
     columns: 5
+  Monitoring:
+#   tab: Second 
+    style: row
+    columns: 1
+  Storage:
+#   tab: Third
+    style: row
+    columns: 1
 fullWidth: true
 disableCollapse: true
 useEqualHeights: true

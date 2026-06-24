@@ -34,6 +34,12 @@
         description: Service monitoring
         icon: uptime-kuma
 
+- Storage:
+    - Nextcloud:
+        href: http://andry.tail9a73fe.ts.net:8081/
+        description: Media storage
+        icon: nextcloud
+
 #- My Third Group:
 #    - My Third Service:
 #        href: http://localhost/

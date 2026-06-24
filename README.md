@@ -10,6 +10,8 @@ Personal self-hosted home server setup with automated media management and secur
 - **FlareSolverr** - Cloudflare bypass for indexers
 ### Dashboard
 - **Homepage** - Dashboard for all services
+### Storage
+- **Nextcloud** - Storage for your files
 ### Monitoring
 - **Uptime Kuma** - Service uptime monitoring
 - **WatchTower** - Checking for container updates
@@ -36,6 +38,7 @@ sudo ./setup.sh
 | Radarr       | 7878 |
 | Sonarr       | 8989 |
 | FlareSolverr | 8191 |
+| Nextcloud    | 8081 |
 | Uptime Kuma  | 3001 |
 | Homepage     | 3000 |
 ## Notes
@@ -44,6 +47,7 @@ sudo ./setup.sh
 - Media files stored in `~/Jellyfin/`, downloads in `~/Downloads/`
 - FlareSolverr must be added as proxy in Prowlarr Settings → Indexer Proxies
 - Watchtower can send Telegram notifications when new container images are available
+- Nextcloud: after setup add your domain/IP to trusted_domains in `/srv/nextcloud/config/www/nextcloud/config/config.php`
 
 ---
 Author: r4vn010
