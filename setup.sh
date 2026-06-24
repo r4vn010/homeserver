@@ -9,4 +9,8 @@ echo "Setting up Dashboard..."
 cd Dashboard && sudo ./setup.sh
 cd ..
 
+echo "Setting up Monitoring..."
+cd Monitoring && sudo ./setup.sh
+cd ..
+
 echo "All done!"

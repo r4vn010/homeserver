@@ -28,11 +28,12 @@
 #        description: Cloudflare solver
 #        icon: flaresolver
 
-#- My Second Group:
-#    - My Second Service:
-#        href: http://localhost/
-#        description: Homepage is the best
-#
+- Monitoring:
+    - Uptime Kuma:
+        href: http://andry.tail9a73fe.ts.net:3001/
+        description: Service monitoring
+        icon: uptime-kuma
+
 #- My Third Group:
 #    - My Third Service:
 #        href: http://localhost/
