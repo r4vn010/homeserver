@@ -1,8 +1,9 @@
 # Homelab 
 Personal self-hosted home server setup with automated media management and secure remote access.
 ## Stack
-### HomeMedia
-- **Jellyfin** - Media server for movies, series etc.
+### Media
+- **Jellyfin** - Media server for movies, series etc
+- **Kavita** - Book server for EPUB, PDF etc
 - **qBittorrent** - Torrent client with web UI
 - **Prowlarr** - Indexer manager for Radarr & Sonarr
 - **Radarr** - Automated movie downloads
@@ -35,6 +36,7 @@ sudo ./setup.sh
 | Service      | Port |
 | ------------ | ---- |
 | Jellyfin     | 8096 |
+| Kavita       | 5000 |
 | qBittorrent  | 8080 |
 | Prowlarr     | 9696 |
 | Radarr       | 7878 |

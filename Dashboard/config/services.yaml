@@ -2,11 +2,17 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- HomeMedia:
+- Media:
     - Jellyfin:
         href: http://andry.tail9a73fe.ts.net:8096/
         description: Media Server
         icon: jellyfin
+    - Kavita:
+        href: http://andry.tail9a73fe.ts.net:5000/
+        description: Books Server
+        icon: kavita
+    
+- Media Management:
     - qBittorrent:
         href: http://andry.tail9a73fe.ts.net:8080/
         description: Torrent-client

@@ -8,7 +8,7 @@ echo "Directories was created"
 
 echo "Setting up rights..."
 sudo chown -R ${SUDO_USER:-$USER}:${SUDO_USER:-$USER} /srv/uptime-kuma
-echo "Rights was set up"
+echo "Rights were set up"
 
 read -p "Setup Telegram notifications? (y/N): " setup_telegram
 if [ "$setup_telegram" = "y" ]; then

@@ -12,16 +12,20 @@ background:
   image: /images/wallpaper_default.jpg
   blur: xs
 layout:
-  HomeMedia:
+  Media:
 #   tab: First
     style: row
-    columns: 5
+    columns: 2
+  Media Management:
+#   tab: Second
+    style: row
+    columns: 4
   Monitoring:
-#   tab: Second 
+#   tab: Third 
     style: row
     columns: 1
   Storage:
-#   tab: Third
+#   tab: Fourth
     style: row
     columns: 1
 fullWidth: true

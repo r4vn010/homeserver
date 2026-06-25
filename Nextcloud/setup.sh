@@ -11,17 +11,17 @@ echo "Creating directories..."
 mkdir -p /srv/nextcloud/db/
 mkdir -p /srv/nextcloud/config/
 mkdir -p /home/${SUDO_USER:-$USER}/Nextcloud/
-echo "Directories was created"
+echo "Directories were created"
 
 echo "Setting up rights..."
 sudo chown -R ${SUDO_USER:-$USER}:${SUDO_USER:-$USER} /srv/nextcloud/db
 sudo chown -R ${SUDO_USER:-$USER}:${SUDO_USER:-$USER} /srv/nextcloud/config
 sudo chown -R ${SUDO_USER:-$USER}:${SUDO_USER:-$USER} /home/${SUDO_USER:-$USER}/Nextcloud
-echo "Rights was set up"
+echo "Rights were set up"
 
 echo "Pulling up containers..."
 docker compose up -d
-echo "Containers was pulled up"
+echo "Containers were pulled up"
 
 echo "Waiting for Nextcloud to initialize..."
 sleep 30

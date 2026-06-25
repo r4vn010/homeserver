@@ -17,4 +17,8 @@ echo "Setting up Nextcloud..."
 cd Nextcloud && sudo ./setup.sh
 cd ..
 
+echo "Setting up Kavita..."
+cd Reading && sudo ./setup.sh
+cd ..
+
 echo "All done!"
