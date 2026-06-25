@@ -12,6 +12,8 @@ Personal self-hosted home server setup with automated media management and secur
 - **Homepage** - Dashboard for all services
 ### Storage
 - **Nextcloud** - Storage for your files
+- **PostgreSQL** - Database for Nextcloud
+- **Redis** - Cache and file locking for Nextcloud
 ### Monitoring
 - **Uptime Kuma** - Service uptime monitoring
 - **WatchTower** - Checking for container updates
