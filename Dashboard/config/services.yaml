@@ -2,6 +2,8 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
+# Insert your own address below to each service
+
 - Media:
     - Jellyfin:
         href: http://andry.tail9a73fe.ts.net:8096/
